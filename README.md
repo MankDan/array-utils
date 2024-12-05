@@ -11,11 +11,16 @@ A lightweight C++ library for optimized array operations leveraging SIMD (AVX an
 
 ## Installation
 1. Clone the repository:
+```
 git clone https://github.com/MankDan/array-utils.git
+```
 2. Include the header file in your project
+```
 #include "array_utils.h"
+```
 
 ## Example code
+```
 #include "array_utils.h"
 #include <iostream>
 
@@ -25,6 +30,7 @@ int main() {
     std::cout << "Count of 2: " << count << std::endl;
     return 0;
 }
+```
 
 ## Contributions
 Feel free to submit feedbacks, pull requests for bug fixes, optimizations, or new features. 
