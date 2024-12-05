@@ -15,12 +15,12 @@ A lightweight C++ library for optimized array operations leveraging SIMD (AVX an
 git clone https://github.com/MankDan/array-utils.git
 ```
 2. Include the header file in your project
-```
+```c++
 #include "array_utils.h"
 ```
 
 ## Example code
-```
+```c++
 #include "array_utils.h"
 #include <iostream>
 
