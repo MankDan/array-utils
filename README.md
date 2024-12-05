@@ -26,7 +26,7 @@ git clone https://github.com/MankDan/array-utils.git
 
 int main() {
     int array[] = {1, 2, 3, 4, 2, 2, 5};
-    size_t count = a(rray_utils::countarray, array + 7, 2);
+    size_t count = array_utils::count(array, array + 7, 2);
     std::cout << "Count of 2: " << count << std::endl;
     return 0;
 }
